@@ -5,7 +5,7 @@ import "encoding/json"
 type StockTrade struct {
 	TickerSymbol string
 	TradeType    string
-	Price        float32
+	Price        float64
 	Quantity     int64
 	Id           int64
 }
